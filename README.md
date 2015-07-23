@@ -83,7 +83,7 @@ array. Use "u" for all unreachable cells. Example:
 
 
 | T        | T           | T  | T        | T           | T  |
-| ------------- |-------------| -----| ------------- |-------------| -----|
+| -- |--| --| --| --| --|
 | 0 | 0 | 0 | x | 0 | x |	
 | col 2 is      | centered      |   $12 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
