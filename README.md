@@ -82,17 +82,9 @@ distance from this position to any other cell in the
 array. Use "u" for all unreachable cells. Example:
 
 
-| | |   |      |            |   |
-| --- | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | x | 0 | x |	
-| col 2 is      | centered      |   $12 | col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-
-| 1 | 2 | 3 | 4 | 5 | 6 |
-| -- | -- | -- | -- | -- | -- |
-| 0 | 0 | 0 | x | 0 | x |					
+|     |     |     |     |     |     |        |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- |		 | --- | --- | --- | --- | --- | --- |
+| 0 | 0 | 0 | x | 0 | x |					 | 3 | 4 | 5 | x | u | x | 
 | 0 | x | 0 | x | 0 | x |					
 | 0 | * | x | 0 | x | 0 |		------>		
 | 0 | x | 0 | 0 | 0 | 0 |					
@@ -108,9 +100,3 @@ array. Use "u" for all unreachable cells. Example:
 
 Labyrinth.java
 
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
