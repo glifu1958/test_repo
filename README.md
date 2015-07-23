@@ -81,6 +81,15 @@ they share common wall. Given a starting position
 distance from this position to any other cell in the
 array. Use "u" for all unreachable cells. Example:
 
+
+| T        | T           | T  | T        | T           | T  |
+| ------------- |-------------| -----| ------------- |-------------| -----|
+| 0 | 0 | 0 | x | 0 | x |	
+| col 2 is      | centered      |   $12 | col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+
 | 1 | 2 | 3 | 4 | 5 | 6 |
 | -- | -- | -- | -- | -- | -- |
 | 0 | 0 | 0 | x | 0 | x |					
