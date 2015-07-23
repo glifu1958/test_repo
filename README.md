@@ -82,7 +82,7 @@ distance from this position to any other cell in the
 array. Use "u" for all unreachable cells. Example:
 
 
-
+| | |   |      |            |   |
 | --- | --- | --- | --- | --- | --- |
 | 0 | 0 | 0 | x | 0 | x |	
 | col 2 is      | centered      |   $12 | col 2 is      | centered      |   $12 |
